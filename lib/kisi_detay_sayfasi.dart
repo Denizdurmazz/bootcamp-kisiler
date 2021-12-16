@@ -53,6 +53,7 @@ class _KisiDetaySayfaState extends State<KisiDetaySayfa> {
               ),
               ElevatedButton(
                   onPressed: () async {
+                    print("Deniz");
                     await guncelle(
                         widget.kisiler.kisi_id, tfKisiAdi.text, tfKisiTel.text);
                   },
